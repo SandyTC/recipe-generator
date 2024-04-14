@@ -2,7 +2,7 @@ function displayRecipe(response) {
   new Typewriter("#recipe", {
     strings: response.data.answer,
     autoStart: true,
-    delay: 50,
+    delay: 20,
     cursor: null,
   });
 }
