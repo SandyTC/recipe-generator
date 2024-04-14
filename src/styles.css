@@ -1,0 +1,75 @@
+body {
+  background-color: #d3e3fd;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+a {
+  color: rgb(95, 95, 239);
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+form {
+  margin-bottom: 30px;
+}
+
+footer {
+  background: #fff;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.container {
+  background: #fff;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.instructions {
+  background-color: #d3e3fd;
+  border: none;
+  font-size: 18px;
+  padding: 15px;
+  width: 75%;
+  border-radius: 6px;
+}
+
+.form-button {
+  background: rgb(95, 95, 239);
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  padding: 15px;
+  width: 17%;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.recipe {
+  font-size: 18px;
+  background: #fff;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  line-height: 2;
+  border-left: 2px solid rgb(95, 95, 239);
+}
