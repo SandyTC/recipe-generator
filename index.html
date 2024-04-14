@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/styles.css" />
     <title>AI Recipe Generator</title>
   </head>
@@ -19,7 +20,7 @@
       </header>
 
       <main>
-        <form action="">
+        <form id="recipe-generator">
           <input
             type="text"
             placeholder="Enter your main ingredient"
@@ -29,16 +30,15 @@
           />
           <input type="submit" value="Submit" class="form-button" />
         </form>
-        </div>
-      </main>
-      <div class="recipe">
+      </div>
+      <div class="recipe" id="recipe">
         Ingredient 1
         <br />
         Ingredient 2
         <br />
         Instructions
       </div>
-    
+    </main>
     <footer>
       This project was coded by
       <a href="https://github.com/SandyTC" target="_blank">Sandy Trebilcock</a>,
