@@ -17,6 +17,10 @@ function generateRecipe(event) {
     "You are an expert chef. Use no more than 6 ingredients, and the recipe must feed 2 people. Provide all weights and measurements in metric and temperatures in celsius. Your mission is to present the recipe in basic HTML with a <br /> between lines";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+  let recipeElement = document.querySelector("#recipe");
+  recipeElement.classList.remove("hidden");
+  recipeElement.innerHTML = `<div class="generating">⏳ Generating a recipe for ${instructionsInput.value}...</div>`;
+
   axios.get(apiUrl).then(displayRecipe);
 }
 
